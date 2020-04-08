@@ -1,9 +1,11 @@
 package topLevel
 
 import commonFunctions.printSomething
+import constants.errorException
 import constants.errorMessage
 import constants.googleToken
 import constants.urlClassrooms
+import java.lang.NullPointerException
 
 /*Creer une fonction "top-level" permettant de verifier si une variable de type
 * String? est differente de 'null' : si elle est egale a 'null', vous declencherez
@@ -15,10 +17,12 @@ import constants.urlClassrooms
 
 fun topLevel(word: String?) {
     try {
-        if(word !== null ){println("$word")}
-    } catch (ex: InterruptedException){
-        println("$errorMessage")
+        if(word != null ){println("$errorMessage")}
+        else {throw NullPointerException()}
+    } catch (ex: NullPointerException){
+        println ("$errorException")
     }
+
 }
 
 fun showTokenAndUrl(){
