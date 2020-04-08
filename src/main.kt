@@ -1,6 +1,7 @@
 import colors.Color
 import colors.choseColor
 import constants.*
+import topLevel.showTokenAndUrl
 import topLevel.topLevel
 import user.User
 import user.makeItMaj
@@ -19,6 +20,7 @@ fun main() {
     isUserOld(111)
     println("kotlin wikipedia is available on this url $urlKotlin")
     topLevel("ciao")
+    showTokenAndUrl()
 }
 
 

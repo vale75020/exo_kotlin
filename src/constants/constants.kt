@@ -16,3 +16,5 @@ val array = "array"
 
 // topLevel
 val errorMessage = "This variable is not null !"
+val googleToken = "ABCDE_IS_MY_TOKEN"
+val urlClassrooms = "https://www.openclassrooms.com"
