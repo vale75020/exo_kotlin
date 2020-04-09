@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92bc59a4-ec05-40ce-92d6-9284dfa72ecf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/User2/User2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extension/StringExtension.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/numberOperations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numbers/numbers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataClassUser/dataClassUser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extension/toPluralExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toPlural/toPlural.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exo_kotlin/META-INF/exo_kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exo_kotlin/META-INF/exo_kotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exo_kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exo_kotlin/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exo_kotlin/Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exo_kotlin/Numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exo_kotlin/User2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exo_kotlin/User2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exo_kotlin/constants/ConstantsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exo_kotlin/constants/ConstantsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exo_kotlin/topLevel/TopLevelKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exo_kotlin/topLevel/TopLevelKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonFunctions/print.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonFunctions/print.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exo_kotlin/extension/StringExtensionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exo_kotlin/extension/StringExtensionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exo_kotlin/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exo_kotlin/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extension/StringExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/extension/StringExtension.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topLevel/topLevel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/topLevel/topLevel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/User.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -93,22 +89,22 @@
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state x="496" y="204" width="811" height="669" key="#Project_Structure/0.23.1792.1031@0.23.1792.1031" timestamp="1586273810688" />
-    <state width="1750" height="268" key="GridCell.Tab.0.bottom" timestamp="1586361457880">
+    <state width="1750" height="268" key="GridCell.Tab.0.bottom" timestamp="1586428620436">
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
-    <state width="1750" height="268" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1586361457880" />
-    <state width="1750" height="268" key="GridCell.Tab.0.center" timestamp="1586361457879">
+    <state width="1750" height="268" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1586428620436" />
+    <state width="1750" height="268" key="GridCell.Tab.0.center" timestamp="1586428620436">
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
-    <state width="1750" height="268" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1586361457879" />
-    <state width="1750" height="268" key="GridCell.Tab.0.left" timestamp="1586361457879">
+    <state width="1750" height="268" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1586428620436" />
+    <state width="1750" height="268" key="GridCell.Tab.0.left" timestamp="1586428620435">
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
-    <state width="1750" height="268" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1586361457879" />
-    <state width="1750" height="268" key="GridCell.Tab.0.right" timestamp="1586361457880">
+    <state width="1750" height="268" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1586428620435" />
+    <state width="1750" height="268" key="GridCell.Tab.0.right" timestamp="1586428620436">
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
-    <state width="1750" height="268" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1586361457880" />
+    <state width="1750" height="268" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1586428620436" />
     <state x="573" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1586273800379">
       <screen x="0" y="23" width="1792" height="1031" />
     </state>

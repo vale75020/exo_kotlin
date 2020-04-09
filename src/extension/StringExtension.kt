@@ -1,5 +1,5 @@
 package extension
 
-private fun String.printMessage() {
+fun String.printMessage() {
     println("variable message contains $this")
 }
